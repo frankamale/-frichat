@@ -69,7 +69,7 @@ class _PersonalDataState extends State<Academia> {
                       ),
                     ),
                   ),
-                  Icon(
+                  const Icon(
                     Icons.arrow_drop_down_sharp,
                     size: 70,
                   )

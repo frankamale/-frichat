@@ -1,4 +1,5 @@
 import 'package:afri_chat/edit_profile/edit_profile.dart';
+import 'package:afri_chat/sign%20in/1_welcome.dart';
 import 'package:flutter/material.dart';
 
 import 'account_info/account.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const Welcome(),
     );
   }
 }
